@@ -1,0 +1,51 @@
+/* Estiliza o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte */
+    background-color: #f0f4f8; /* Cor de fundo clara */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove espaçamento interno padrão */
+    color: #333; /* Cor do texto principal */
+}
+
+/* Cabeçalho da página */
+header {
+    background-color: #0044cc; /* Azul escuro */
+    color: white; /* Texto branco */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Área principal */
+main {
+    padding: 20px; /* Espaço ao redor do conteúdo */
+}
+
+/* Container que organiza as seções lado a lado */
+.container {
+    display: flex; /* Usa flexbox para organizar os elementos */
+    gap: 20px; /* Espaço entre as colunas */
+    justify-content: space-between; /* Espaça as colunas igualmente */
+    flex-wrap: wrap; /* Faz as colunas quebrarem linha em telas pequenas */
+}
+
+/* Cada seção de conteúdo */
+section {
+    background-color: white; /* Fundo branco */
+    margin-bottom: 20px; /* Espaço abaixo (usado se estiver em coluna) */
+    padding: 15px; /* Espaço interno */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra suave */
+    flex: 1; /* Faz as seções crescerem igualmente */
+    min-width: 250px; /* Largura mínima para manter legibilidade */
+}
+
+/* Rodapé fixado no final da tela */
+footer {
+    text-align: center; /* Centraliza o texto */
+    background-color: #0044cc; /* Mesma cor do cabeçalho */
+    color: white; /* Texto branco */
+    padding: 10px; /* Espaço interno */
+    position: fixed; /* Fixa no final da tela */
+    width: 100%; /* Ocupa toda a largura */
+    bottom: 0; /* Alinha no rodapé */
+}
